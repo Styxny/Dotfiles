@@ -8,5 +8,7 @@
 :set tabstop=4
 :set softtabstop=4
 
-" Set Colorscheme
+" Highlight options
+:set nohlsearch
+:set incsearch 
 
