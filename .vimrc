@@ -22,7 +22,7 @@
 :nnoremap - <C-w>-
 :nnoremap + <C-w>+
 :nnoremap = <C-w>=
-:nooremap < <C-w><
+:nnoremap < <C-w><
 :nnoremap > <C-w>>
 
 " Don't wrap text
