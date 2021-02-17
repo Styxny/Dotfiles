@@ -12,3 +12,18 @@
 :set nohlsearch
 :set incsearch 
 
+" Maping it easier to more between windows
+:nnoremap J <C-w>j
+:nnoremap K <C-w>k
+:nnoremap H <C-w>h
+:nnoremap L <C-w>l
+
+" Maping for window resizing
+:nnoremap - <C-w>-
+:nnoremap + <C-w>+
+:nnoremap = <C-w>=
+:nooremap < <C-w><
+:nnoremap > <C-w>>
+
+" Don't wrap text
+:set nowrap
