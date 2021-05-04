@@ -17,16 +17,6 @@ filetype plugin indent on
 :set number
 :set number relativenumber
 
-au BufNewFile,BufRead *.py
-    \ set tabstop=4
-    \ set softtabstop=4
-    \ set shiftwidth=4
-    \ set textwidth=4
-    \ set expandtab
-    \ set autoindent
-    \ set fileformat=unix
-
-
 " Highlight options
 :set nohlsearch
 :set incsearch 
@@ -51,3 +41,7 @@ au BufNewFile,BufRead *.py
 set foldmethod=indent
 set foldlevel=99
 nnoremap <space> za
+
+" Auto bring up NerdTree
+autocmd VimEnter * NERDTree
+
