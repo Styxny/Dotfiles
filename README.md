@@ -15,3 +15,8 @@ Customized dot files for bash, vim, tmux
     ln -s ~/code/Dotfiles/.tmux.conf ~/.tmux.conf
     
     ln -s ~/code/Dotfiles/.gitconfig ~/.gitconfig
+
+
+Install YouCompleteMe
+
+[YCM](https://github.com/ycm-core/YouCompleteMe#linux-64-bit)
