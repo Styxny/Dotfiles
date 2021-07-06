@@ -8,6 +8,8 @@ Plugin 'gmarik/Vundle.vim'
 
 Plugin 'scrooloose/nerdtree'
 
+Plugin 'ycm-core/YouCompleteMe'
+
 call vundle#end()
 filetype plugin indent on
 
