@@ -12,7 +12,7 @@ Plugin 'ycm-core/YouCompleteMe'
 
 call vundle#end()
 filetype plugin indent on
-
+syntax on
 
 " Add in relative line number around absolute line number
 :set relativenumber
@@ -43,6 +43,14 @@ filetype plugin indent on
 set foldmethod=indent
 set foldlevel=99
 nnoremap <space> za
+
+"colorscheme
+colorscheme desert
+
+" Tab stuff
+set tabstop=4
+set shiftwidth=4
+set expandtab
 
 " Auto bring up NerdTree
 autocmd VimEnter * NERDTree
