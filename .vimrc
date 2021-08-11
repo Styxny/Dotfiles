@@ -22,6 +22,7 @@ syntax on
 " Highlight options
 :set nohlsearch
 :set incsearch 
+set ic
 
 " Maping it easier to more between windows
 :nnoremap J <C-w>j
