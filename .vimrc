@@ -40,6 +40,9 @@ set ic
 " Don't wrap text
 :set nowrap
 
+" Allow backspace after indent
+set backspace=indent
+
 " Enable folding
 set foldmethod=indent
 set foldlevel=99
@@ -49,8 +52,8 @@ nnoremap <space> za
 colorscheme desert
 
 " Tab stuff
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 
 " Auto bring up NerdTree
