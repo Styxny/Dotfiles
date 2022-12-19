@@ -14,10 +14,9 @@ call vundle#end()
 filetype plugin indent on
 syntax on
 
-" Add in relative line number around absolute line number
-:set relativenumber
+" Add in absolute line number
 :set number
-:set number relativenumber
+
 
 " Highlight options
 :set nohlsearch
