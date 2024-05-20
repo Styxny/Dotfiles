@@ -24,3 +24,7 @@ Customized dot files for bash, vim, tmux
 Install YouCompleteMe
 
 [YCM](https://github.com/ycm-core/YouCompleteMe#linux-64-bit)
+
+
+Install fzf
+Install ripgrep
