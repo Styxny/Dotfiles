@@ -8,11 +8,13 @@ Customized dot files for bash, vim, tmux
 - add both nvim and tree-sitter to $PATH
 - download a nerd font https://www.nerdfonts.com/font-downloads
 
+```
     mkdir -p ~/.local/share/fonts
     cd ~/.local/share/fonts
     (unpack font)
     fc-cache -fv
-- 
+```
+ 
 
 ## OLD---Setup
 
