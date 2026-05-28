@@ -2,7 +2,19 @@
 Customized dot files for bash, vim, tmux
 
 
-## Setup
+## NVIM Setup
+- Download and install Nvim > 0.11 
+- Download and install tree-sitter-cli
+- add both nvim and tree-sitter to $PATH
+- download a nerd font https://www.nerdfonts.com/font-downloads
+
+    mkdir -p ~/.local/share/fonts
+    cd ~/.local/share/fonts
+    (unpack font)
+    fc-cache -fv
+- 
+
+## OLD---Setup
 
     sudo apt -y install vim tmux xclip ripgrep fzf
 
@@ -22,4 +34,6 @@ Customized dot files for bash, vim, tmux
 Install YouCompleteMe
 
 [YCM](https://github.com/ycm-core/YouCompleteMe#linux-64-bit)
+
+
 

@@ -1,6 +1,3 @@
-[include]
-	path = ~/safe/.gitconfig
-
 [core]
 	editor = vim
 

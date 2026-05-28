@@ -1,5 +1,5 @@
 function ColorMyPencils(color)
-	color = color or "duskfox"
+	color = color or "terafox"
 	vim.cmd.colorscheme(color)
 
 end
