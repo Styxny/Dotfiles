@@ -15,6 +15,7 @@ vim.opt.expandtab = true
 --No highlight and incremental search
 vim.opt.hlsearch = false
 vim.opt.incsearch = true
+vim.opt.ignorecase = true
 
 --COLORS!
 vim.opt.termguicolors = true

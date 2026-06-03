@@ -16,7 +16,7 @@ return {
 
           api.config.mappings.default_on_attach(bufnr)
 
-          vim.keymap.set("n", "v", api.node.open.vertical, opts("NvimTree: Toggle"))   
+          vim.keymap.set("n", "s", api.node.open.vertical, opts("NvimTree: Toggle"))   
           vim.keymap.set("n", "h", api.node.open.horizontal, opts("NvimTree: Toggle"))
 
           -- Maping it easier to more between windows
@@ -24,6 +24,11 @@ return {
           vim.keymap.set('n', "K", "<C-w>k", opts("Move focus up"))
           vim.keymap.set('n', "H", "<C-w>h", opts("Move focus left"))
           vim.keymap.set('n', "L", "<C-w>l", opts("Move focus Right"))
+
+          -- Resize nvimtree
+          vim.keymap.set('n', '>', ':NvimTreeResize +1<CR>', opts("REsize nvim tree"))
+          vim.keymap.set('n', '<', ':NvimTreeResize -1<CR>', opts("REsize nvim tree"))
+
       end
 	  require("nvim-tree").setup({on_attach = on_attach})
   end,
