@@ -30,6 +30,17 @@ return {
           vim.keymap.set('n', '<', ':NvimTreeResize -1<CR>', opts("REsize nvim tree"))
 
       end
-	  require("nvim-tree").setup({on_attach = on_attach})
+	  require("nvim-tree").setup({on_attach = on_attach,
+            filters = {
+                dotfiles = false,
+                custom = {},
+                exclude = {},
+            },
+            git = {
+                enable = true,
+                ignore = false,
+            }
+
+      })
   end,
 }
